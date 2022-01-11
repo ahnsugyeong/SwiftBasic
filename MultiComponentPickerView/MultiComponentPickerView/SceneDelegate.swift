@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  MultiComponentPickerView
 //
-//  Created by 안수경 on 2022/01/10.
+//  Created by 안수경 on 2022/01/11.
 //
 
 import UIKit
