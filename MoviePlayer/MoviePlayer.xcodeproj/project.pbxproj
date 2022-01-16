@@ -13,6 +13,9 @@
 		01581214279433990002E88E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01581212279433990002E88E /* Main.storyboard */; };
 		015812162794339B0002E88E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015812152794339B0002E88E /* Assets.xcassets */; };
 		015812192794339B0002E88E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015812172794339B0002E88E /* LaunchScreen.storyboard */; };
+		01581224279433D30002E88E /* FastTyping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01581221279433D30002E88E /* FastTyping.jpg */; };
+		01581225279433D30002E88E /* FastTyping.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 01581222279433D30002E88E /* FastTyping.mp4 */; };
+		01581226279433D30002E88E /* Fireworks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01581223279433D30002E88E /* Fireworks.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		015812152794339B0002E88E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		015812182794339B0002E88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0158121A2794339B0002E88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01581221279433D30002E88E /* FastTyping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FastTyping.jpg; sourceTree = "<group>"; };
+		01581222279433D30002E88E /* FastTyping.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FastTyping.mp4; sourceTree = "<group>"; };
+		01581223279433D30002E88E /* Fireworks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fireworks.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		0158120B279433990002E88E /* MoviePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				01581220279433CD0002E88E /* Sources */,
 				0158120C279433990002E88E /* AppDelegate.swift */,
 				0158120E279433990002E88E /* SceneDelegate.swift */,
 				01581210279433990002E88E /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				0158121A2794339B0002E88E /* Info.plist */,
 			);
 			path = MoviePlayer;
+			sourceTree = "<group>";
+		};
+		01581220279433CD0002E88E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				01581221279433D30002E88E /* FastTyping.jpg */,
+				01581222279433D30002E88E /* FastTyping.mp4 */,
+				01581223279433D30002E88E /* Fireworks.jpg */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +144,9 @@
 			files = (
 				015812192794339B0002E88E /* LaunchScreen.storyboard in Resources */,
 				015812162794339B0002E88E /* Assets.xcassets in Resources */,
+				01581225279433D30002E88E /* FastTyping.mp4 in Resources */,
+				01581224279433D30002E88E /* FastTyping.jpg in Resources */,
+				01581226279433D30002E88E /* Fireworks.jpg in Resources */,
 				01581214279433990002E88E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +315,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +327,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,6 +344,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +356,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
